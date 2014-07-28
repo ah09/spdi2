@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1404481581 source:c:\users\alexander\documents\github\spdi\tube\main.c
+	<stdio.h>
+	<math.h>
+

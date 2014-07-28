@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404481855 source:c:\users\alexander\documents\github\spdi\main.c
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+
