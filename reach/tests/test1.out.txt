@@ -1,3 +1,8 @@
+enter size of SPDI
+enter R1.e.e1.pt1.x, R1.e.e1.pt1.y, R1.e.e1.pt2.x, R1.e.e1.pt2.y, R1.e.e2.pt1.x, R1.e.e2.pt1.y, R1.e.e2.pt2.x, R1.e.e2.pt2.y, R1.e.e3.pt1.x, R1.e.e3.pt1.y, R1.e.e3.pt2.x, R1.e.e3.pt2.y, R1.e.e4.pt1.x, R1.e.e4.pt1.y, R1.e.e4.pt2.x, R1.e.e4.pt2.y
+enter R1.v.a.x, R1.v.a.y, R1.v.b.x, R1.v.b.y
+enter initial.pt1.x, initial.pt1.y, initial.pt2.x, initial.pt2.y
+enter target.pt1.x, target.pt1.y, target.pt2.x, target.pt2.y
 yes, the edge (2.000000, 1.000000) to (2.000000, 2.000000)
 is reachable at (2.000000, 1.250000) to (2.000000, 1.750000)
 when starting from (1.250000, 1.000000) to (1.750000, 1.000000)

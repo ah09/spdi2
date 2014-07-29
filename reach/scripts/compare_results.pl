@@ -17,7 +17,7 @@ print "\n";
 
 for my $test (sort @tests)
 {
-	next if $test !~ m/\.t$/;
+	next if $test !~ m/\.in.txt$/;
 
 	print "$test: ";
 
@@ -25,12 +25,12 @@ for my $test (sort @tests)
 
 	my $testbase = $test;
 
-	$testbase =~ s/\.t$//;
+	$testbase =~ s/\.in.txt$//;
 
-	my $reftest = "$testbase.ref";
-	my $mytest = "$testbase.my";
-	my $referrtest = "$testbase.referr";
-	my $myerrtest = "$testbase.myerr";
+	my $reftest = "$testbase.out.txt";
+	my $mytest = "$testbase.my.txt";
+	my $referrtest = "$testbase.referr.txt";
+	my $myerrtest = "$testbase.myerr.txt";
 
     my $reftest_data = `cat $reftest`;
 	my $mytest_data = `cat $mytest`;
