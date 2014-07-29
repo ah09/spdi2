@@ -8,10 +8,10 @@
 
 
 /* min finds the lowest of four doubles */
-inline double min(double, double, double, double);
+double min(double, double, double, double);
 
 /* max finds the highest of four doubles */
-inline double max(double, double, double, double);
+double max(double, double, double, double);
 
 
 #endif
