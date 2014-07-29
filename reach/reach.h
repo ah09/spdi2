@@ -5,7 +5,7 @@
 
 /* earlier reach attemt involving an array and two pointers was too simplistic,
    a truly recursive function that generates branches is needed, is unfinished */
-bool reach(region [], int, line [], line [], int, line);
+line reach(region [], int, line [], line [], int, line);
 
 
 #endif
