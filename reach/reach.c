@@ -103,7 +103,7 @@ line reach(region s[], int size, line edgeSequence[], line intervalSequence[], i
                 //printf("inescapable[%d] is (%f, %f) to (%f, %f)\n", count, inescapable[count].pt1.x, inescapable[count].pt1.y, inescapable[count].pt2.x, inescapable[count].pt2.y);
             }
             inescapableInt = inescapableInt + sizeOfCycle; // records the loop
-            printf("inescapable\n");
+            //printf("inescapable\n");
             return lineNotFound; // stuck in loop
         }
     }
