@@ -46,7 +46,7 @@ line reach(region s[], int size, line edgeSequence[], line intervalSequence[], i
         //return lineNotFound;
         //}
     }
-    printf("intervalSequence[%d] is (%f, %f) to (%f, %f)\n", i, intervalSequence[i].pt1.x, intervalSequence[i].pt1.y, intervalSequence[i].pt2.x, intervalSequence[i].pt2.y);
+    //printf("intervalSequence[%d] is (%f, %f) to (%f, %f)\n", i, intervalSequence[i].pt1.x, intervalSequence[i].pt1.y, intervalSequence[i].pt2.x, intervalSequence[i].pt2.y);
     if (patternDetection(edgeSequence, i+1)){
         bool escapable = false;
         int sizeOfCycle = cycleNumber(edgeSequence, i+1);
