@@ -54,8 +54,66 @@ bool isCollinearIntersection(line I, line e) {
     double CI = AI*I.pt1.x + BI*I.pt1.y;
     double Ce = Ae*e.pt1.x + Be*e.pt1.y;
     double d = AI*Be - Ae*BI;
-    if (d == 0 && AI*e.pt1.x + BI*e.pt1.y - CI == Ae*e.pt1.x + Be*e.pt1.y - Ce && I.pt1.x >= e.pt1.x && I.pt2.x <= e.pt2.x && I.pt1.y >= e.pt1.y && I.pt2.y <= e.pt2.y){
+    if (d == 0 && AI*e.pt1.x + BI*e.pt1.y - CI == Ae*e.pt1.x + Be*e.pt1.y - Ce
+        && ((I.pt1.y == I.pt2.y && e.pt1.y == e.pt2.y && I.pt1.x >= e.pt1.x && I.pt2.x <= e.pt2.x)
+        || (I.pt1.x == I.pt2.x && e.pt1.x == e.pt2.x && I.pt1.y >= e.pt1.y && I.pt2.y <= e.pt2.y))){
         return true;
     }
     return false;
+}
+
+bool isSomeCollinearIntersection(line I, line e) {
+    double AI = I.pt2.y - I.pt1.y;
+    double Ae = e.pt2.y - e.pt1.y;
+    double BI = I.pt1.x - I.pt2.x;
+    double Be = e.pt1.x - e.pt2.x;
+    double CI = AI*I.pt1.x + BI*I.pt1.y;
+    double Ce = Ae*e.pt1.x + Be*e.pt1.y;
+    double d = AI*Be - Ae*BI;
+    if (d == 0 && AI*e.pt1.x + BI*e.pt1.y - CI == Ae*e.pt1.x + Be*e.pt1.y - Ce
+        && ((I.pt1.y == I.pt2.y && e.pt1.y == e.pt2.y && I.pt1.x != e.pt2.x && I.pt2.x != e.pt1.x && ((I.pt1.x >= e.pt1.x && I.pt1.x <= e.pt2.x) || (I.pt2.x <= e.pt2.x && I.pt2.x >=e.pt1.x)))
+        || (I.pt1.x == I.pt2.x && e.pt1.x == e.pt2.x && I.pt1.y != e.pt2.y && I.pt2.y != e.pt1.y && ((I.pt1.y >= e.pt1.y && I.pt1.y <= e.pt2.y) || (I.pt2.y <= e.pt2.y && I.pt2.y >= e.pt1.y))))){
+        return true;
+    }
+    return false;
+}
+
+line lineSetMinusLine(line I, line e) {
+    line l;
+    if (isSomeCollinearIntersection(I, e)) {
+        if (I.pt1.x == I.pt2.x){
+            if (I.pt1.y < e.pt1.y){
+                l.pt1.x = I.pt1.x;
+                l.pt1.y = I.pt1.y;
+                l.pt2.x = I.pt2.x;
+                l.pt2.y = e.pt1.y;
+                return l;
+            }
+            else if (I.pt2.y > e.pt2.y){
+                l.pt1.x = I.pt1.x;
+                l.pt1.y = e.pt2.y;
+                l.pt2.x = I.pt2.x;
+                l.pt2.y = I.pt2.y;
+                return l;
+            }
+        }
+        else{
+            if (I.pt1.x < e.pt1.x){
+                l.pt1.x = I.pt1.x;
+                l.pt1.y = I.pt1.y;
+                l.pt2.x = e.pt1.x;
+                l.pt2.y = e.pt1.y;
+                return l;
+            }
+            else if (I.pt2.x > e.pt2.x){
+                l.pt1.x = e.pt2.x;
+                l.pt1.y = e.pt2.y;
+                l.pt2.x = I.pt2.x;
+                l.pt2.y = I.pt2.y;
+                return l;
+            }
+        }
+        return lineNotFound;
+    }
+    return I;
 }

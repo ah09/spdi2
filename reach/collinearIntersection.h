@@ -18,5 +18,11 @@ bool isCollinear(line, line);
    is an computable line where the two line segments intersect with each other */
 bool isCollinearIntersection(line, line);
 
+/* isSomeCollinearIntersection is for if there is any intersection at all,
+   not just if the first line is entirely contained within the second one*/
+bool isSomeCollinearIntersection(line, line);
+
+/* lineSetMinusLine minuses the second argument from the first one */
+line lineSetMinusLine(line, line);
 
 #endif
