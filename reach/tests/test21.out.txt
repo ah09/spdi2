@@ -1,0 +1,30 @@
+enter size of SPDI
+enter R1.e.e1.pt1.x, R1.e.e1.pt1.y, R1.e.e1.pt2.x, R1.e.e1.pt2.y, R1.e.e2.pt1.x, R1.e.e2.pt1.y, R1.e.e2.pt2.x, R1.e.e2.pt2.y, R1.e.e3.pt1.x, R1.e.e3.pt1.y, R1.e.e3.pt2.x, R1.e.e3.pt2.y, R1.e.e4.pt1.x, R1.e.e4.pt1.y, R1.e.e4.pt2.x, R1.e.e4.pt2.y
+enter R1.v.a.x, R1.v.a.y, R1.v.b.x, R1.v.b.y
+enter R2.e.e1.pt1.x, R2.e.e1.pt1.y, R2.e.e1.pt2.x, R2.e.e1.pt2.y, R2.e.e2.pt1.x, R2.e.e2.pt1.y, R2.e.e2.pt2.x, R2.e.e2.pt2.y, R2.e.e3.pt1.x, R2.e.e3.pt1.y, R2.e.e3.pt2.x, R2.e.e3.pt2.y, R2.e.e4.pt1.x, R2.e.e4.pt1.y, R2.e.e4.pt2.x, R2.e.e4.pt2.y
+enter R2.v.a.x, R2.v.a.y, R2.v.b.x, R2.v.b.y
+enter R3.e.e1.pt1.x, R3.e.e1.pt1.y, R3.e.e1.pt2.x, R3.e.e1.pt2.y, R3.e.e2.pt1.x, R3.e.e2.pt1.y, R3.e.e2.pt2.x, R3.e.e2.pt2.y, R3.e.e3.pt1.x, R3.e.e3.pt1.y, R3.e.e3.pt2.x, R3.e.e3.pt2.y, R3.e.e4.pt1.x, R3.e.e4.pt1.y, R3.e.e4.pt2.x, R3.e.e4.pt2.y
+enter R3.v.a.x, R3.v.a.y, R3.v.b.x, R3.v.b.y
+enter R4.e.e1.pt1.x, R4.e.e1.pt1.y, R4.e.e1.pt2.x, R4.e.e1.pt2.y, R4.e.e2.pt1.x, R4.e.e2.pt1.y, R4.e.e2.pt2.x, R4.e.e2.pt2.y, R4.e.e3.pt1.x, R4.e.e3.pt1.y, R4.e.e3.pt2.x, R4.e.e3.pt2.y, R4.e.e4.pt1.x, R4.e.e4.pt1.y, R4.e.e4.pt2.x, R4.e.e4.pt2.y
+enter R4.v.a.x, R4.v.a.y, R4.v.b.x, R4.v.b.y
+enter R5.e.e1.pt1.x, R5.e.e1.pt1.y, R5.e.e1.pt2.x, R5.e.e1.pt2.y, R5.e.e2.pt1.x, R5.e.e2.pt1.y, R5.e.e2.pt2.x, R5.e.e2.pt2.y, R5.e.e3.pt1.x, R5.e.e3.pt1.y, R5.e.e3.pt2.x, R5.e.e3.pt2.y, R5.e.e4.pt1.x, R5.e.e4.pt1.y, R5.e.e4.pt2.x, R5.e.e4.pt2.y
+enter R5.v.a.x, R5.v.a.y, R5.v.b.x, R5.v.b.y
+enter R6.e.e1.pt1.x, R6.e.e1.pt1.y, R6.e.e1.pt2.x, R6.e.e1.pt2.y, R6.e.e2.pt1.x, R6.e.e2.pt1.y, R6.e.e2.pt2.x, R6.e.e2.pt2.y, R6.e.e3.pt1.x, R6.e.e3.pt1.y, R6.e.e3.pt2.x, R6.e.e3.pt2.y, R6.e.e4.pt1.x, R6.e.e4.pt1.y, R6.e.e4.pt2.x, R6.e.e4.pt2.y
+enter R6.v.a.x, R6.v.a.y, R6.v.b.x, R6.v.b.y
+enter R7.e.e1.pt1.x, R7.e.e1.pt1.y, R7.e.e1.pt2.x, R7.e.e1.pt2.y, R7.e.e2.pt1.x, R7.e.e2.pt1.y, R7.e.e2.pt2.x, R7.e.e2.pt2.y, R7.e.e3.pt1.x, R7.e.e3.pt1.y, R7.e.e3.pt2.x, R7.e.e3.pt2.y, R7.e.e4.pt1.x, R7.e.e4.pt1.y, R7.e.e4.pt2.x, R7.e.e4.pt2.y
+enter R7.v.a.x, R7.v.a.y, R7.v.b.x, R7.v.b.y
+enter R8.e.e1.pt1.x, R8.e.e1.pt1.y, R8.e.e1.pt2.x, R8.e.e1.pt2.y, R8.e.e2.pt1.x, R8.e.e2.pt1.y, R8.e.e2.pt2.x, R8.e.e2.pt2.y, R8.e.e3.pt1.x, R8.e.e3.pt1.y, R8.e.e3.pt2.x, R8.e.e3.pt2.y, R8.e.e4.pt1.x, R8.e.e4.pt1.y, R8.e.e4.pt2.x, R8.e.e4.pt2.y
+enter R8.v.a.x, R8.v.a.y, R8.v.b.x, R8.v.b.y
+enter R9.e.e1.pt1.x, R9.e.e1.pt1.y, R9.e.e1.pt2.x, R9.e.e1.pt2.y, R9.e.e2.pt1.x, R9.e.e2.pt1.y, R9.e.e2.pt2.x, R9.e.e2.pt2.y, R9.e.e3.pt1.x, R9.e.e3.pt1.y, R9.e.e3.pt2.x, R9.e.e3.pt2.y, R9.e.e4.pt1.x, R9.e.e4.pt1.y, R9.e.e4.pt2.x, R9.e.e4.pt2.y
+enter R9.v.a.x, R9.v.a.y, R9.v.b.x, R9.v.b.y
+enter R10.e.e1.pt1.x, R10.e.e1.pt1.y, R10.e.e1.pt2.x, R10.e.e1.pt2.y, R10.e.e2.pt1.x, R10.e.e2.pt1.y, R10.e.e2.pt2.x, R10.e.e2.pt2.y, R10.e.e3.pt1.x, R10.e.e3.pt1.y, R10.e.e3.pt2.x, R10.e.e3.pt2.y, R10.e.e4.pt1.x, R10.e.e4.pt1.y, R10.e.e4.pt2.x, R10.e.e4.pt2.y
+enter R10.v.a.x, R10.v.a.y, R10.v.b.x, R10.v.b.y
+enter R11.e.e1.pt1.x, R11.e.e1.pt1.y, R11.e.e1.pt2.x, R11.e.e1.pt2.y, R11.e.e2.pt1.x, R11.e.e2.pt1.y, R11.e.e2.pt2.x, R11.e.e2.pt2.y, R11.e.e3.pt1.x, R11.e.e3.pt1.y, R11.e.e3.pt2.x, R11.e.e3.pt2.y, R11.e.e4.pt1.x, R11.e.e4.pt1.y, R11.e.e4.pt2.x, R11.e.e4.pt2.y
+enter R11.v.a.x, R11.v.a.y, R11.v.b.x, R11.v.b.y
+enter R12.e.e1.pt1.x, R12.e.e1.pt1.y, R12.e.e1.pt2.x, R12.e.e1.pt2.y, R12.e.e2.pt1.x, R12.e.e2.pt1.y, R12.e.e2.pt2.x, R12.e.e2.pt2.y, R12.e.e3.pt1.x, R12.e.e3.pt1.y, R12.e.e3.pt2.x, R12.e.e3.pt2.y, R12.e.e4.pt1.x, R12.e.e4.pt1.y, R12.e.e4.pt2.x, R12.e.e4.pt2.y
+enter R12.v.a.x, R12.v.a.y, R12.v.b.x, R12.v.b.y
+enter initial.pt1.x, initial.pt1.y, initial.pt2.x, initial.pt2.y
+enter target.pt1.x, target.pt1.y, target.pt2.x, target.pt2.y
+yes, the edge (5.000000, 1.000000) to (5.000000, 2.000000)
+is reachable at (5.000000, 1.000000) to (5.000000, 2.000000)
+when starting from (2.000000, 1.250000) to (2.000000, 1.750000)
